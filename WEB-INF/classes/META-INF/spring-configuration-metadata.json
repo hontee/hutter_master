@@ -6,6 +6,11 @@
       "sourceType": "com.hutter.master.base.properties.DruidProperties"
     },
     {
+      "name": "title.policy",
+      "type": "com.hutter.master.base.properties.TitlePolicy",
+      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
+    },
+    {
       "name": "web.fetch",
       "type": "com.hutter.master.base.properties.FetchProperties",
       "sourceType": "com.hutter.master.base.properties.FetchProperties"
@@ -86,6 +91,42 @@
       "name": "druid.username",
       "type": "java.lang.String",
       "sourceType": "com.hutter.master.base.properties.DruidProperties"
+    },
+    {
+      "name": "title.policy.divide",
+      "type": "java.lang.String",
+      "description": "分隔符 ·",
+      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
+    },
+    {
+      "name": "title.policy.home",
+      "type": "java.lang.String",
+      "description": "首页",
+      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
+    },
+    {
+      "name": "title.policy.name",
+      "type": "java.lang.String",
+      "description": "基本名称",
+      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
+    },
+    {
+      "name": "title.policy.recommend",
+      "type": "java.lang.String",
+      "description": "推荐新产品",
+      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
+    },
+    {
+      "name": "title.policy.recommend-confirm",
+      "type": "java.lang.String",
+      "description": "推荐确认",
+      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
+    },
+    {
+      "name": "title.policy.recommend-submit",
+      "type": "java.lang.String",
+      "description": "推荐提交",
+      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
     },
     {
       "name": "web.fetch.follow-redirects",
