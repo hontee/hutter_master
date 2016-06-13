@@ -132,19 +132,7 @@
     {
       "name": "title.policy.recommend",
       "type": "java.lang.String",
-      "description": "推荐新产品",
-      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
-    },
-    {
-      "name": "title.policy.recommend-confirm",
-      "type": "java.lang.String",
-      "description": "推荐确认",
-      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
-    },
-    {
-      "name": "title.policy.recommend-submit",
-      "type": "java.lang.String",
-      "description": "推荐提交",
+      "description": "开发者推荐",
       "sourceType": "com.hutter.master.base.properties.TitlePolicy"
     }
   ],
