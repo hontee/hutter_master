@@ -9,11 +9,6 @@
       "name": "spider",
       "type": "com.hutter.master.base.properties.SpiderProperties",
       "sourceType": "com.hutter.master.base.properties.SpiderProperties"
-    },
-    {
-      "name": "title.policy",
-      "type": "com.hutter.master.base.properties.TitlePolicy",
-      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
     }
   ],
   "properties": [
@@ -116,24 +111,6 @@
       "name": "spider.user-agent",
       "type": "java.lang.String",
       "sourceType": "com.hutter.master.base.properties.SpiderProperties"
-    },
-    {
-      "name": "title.policy.home",
-      "type": "java.lang.String",
-      "description": "首页",
-      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
-    },
-    {
-      "name": "title.policy.name",
-      "type": "java.lang.String",
-      "description": "基本名称",
-      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
-    },
-    {
-      "name": "title.policy.recommend",
-      "type": "java.lang.String",
-      "description": "开发者推荐",
-      "sourceType": "com.hutter.master.base.properties.TitlePolicy"
     }
   ],
   "hints": []

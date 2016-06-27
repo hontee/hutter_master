@@ -21,7 +21,7 @@ $(document).ready(function() {
 	    if (data.success) {
 		  hutter.render(data.result);
 		} else {
-		  hutter.msg(message, data.message);
+		  hutter.error(message, data.message);
 		  hutter.unloader(button);
 		}
       });

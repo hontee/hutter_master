@@ -1,21 +1,7 @@
-<@override name="body">
-<#if (records?size>0)>
-<div class="ui divided items">
-  <#list records as r>
-  <div class="item">
-    <div class="content">
-      <a class="header" href="/${r.id}/hit" target="_blank">${r.title}</a>
-      <div class="description">
-        <p>${r.description}</p>
-      </div>
-    </div>
-  </div>
-  </#list>
-</div>
-<@extends name="snippets/pager.ftl"/>
-<#else>
-没有找到记录
-</#if>
+<#-- Home -->
+<@override name="main">
+  <div class="ui hidden divider"></div>
+  <@extends name="/snippets/products.ftl"/>
 </@override>
 
-<@extends name="../base.ftl" />
+<@extends name="/primary.ftl" />
